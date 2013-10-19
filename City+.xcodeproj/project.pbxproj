@@ -13,7 +13,6 @@
 		3F1A589E181262050069E3CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A589C181262050069E3CB /* InfoPlist.strings */; };
 		3F1A58A0181262050069E3CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A589F181262050069E3CB /* main.m */; };
 		3F1A58A4181262050069E3CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A58A3181262050069E3CB /* AppDelegate.m */; };
-		3F1A58A7181262050069E3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A58A5181262050069E3CB /* Main.storyboard */; };
 		3F1A58AA181262050069E3CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A58A9181262050069E3CB /* ViewController.m */; };
 		3F1A58AC181262050069E3CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A58AB181262050069E3CB /* Images.xcassets */; };
 		3F1A58B3181262050069E3CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1A58B2181262050069E3CB /* XCTest.framework */; };
@@ -21,6 +20,7 @@
 		3F1A58B5181262050069E3CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1A5897181262050069E3CB /* UIKit.framework */; };
 		3F1A58BD181262050069E3CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A58BB181262050069E3CB /* InfoPlist.strings */; };
 		3F1A58BF181262050069E3CB /* City_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A58BE181262050069E3CB /* City_Tests.m */; };
+		3FC276C91813147600F94944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC276C81813147600F94944 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		3F1A58A1181262050069E3CB /* City+-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "City+-Prefix.pch"; sourceTree = "<group>"; };
 		3F1A58A2181262050069E3CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F1A58A3181262050069E3CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F1A58A6181262050069E3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F1A58A8181262050069E3CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F1A58A9181262050069E3CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F1A58AB181262050069E3CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		3F1A58BA181262050069E3CB /* City+Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "City+Tests-Info.plist"; sourceTree = "<group>"; };
 		3F1A58BC181262050069E3CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F1A58BE181262050069E3CB /* City_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City_Tests.m; sourceTree = "<group>"; };
+		3FC276C81813147600F94944 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +112,9 @@
 		3F1A5899181262050069E3CB /* City+ */ = {
 			isa = PBXGroup;
 			children = (
+				3FC276C81813147600F94944 /* Main.storyboard */,
 				3F1A58A2181262050069E3CB /* AppDelegate.h */,
 				3F1A58A3181262050069E3CB /* AppDelegate.m */,
-				3F1A58A5181262050069E3CB /* Main.storyboard */,
 				3F1A58A8181262050069E3CB /* ViewController.h */,
 				3F1A58A9181262050069E3CB /* ViewController.m */,
 				3F1A58AB181262050069E3CB /* Images.xcassets */,
@@ -228,9 +228,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC276C91813147600F94944 /* Main.storyboard in Resources */,
 				3F1A58AC181262050069E3CB /* Images.xcassets in Resources */,
 				3F1A589E181262050069E3CB /* InfoPlist.strings in Resources */,
-				3F1A58A7181262050069E3CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +280,6 @@
 				3F1A589D181262050069E3CB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3F1A58A5181262050069E3CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F1A58A6181262050069E3CB /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		3F1A58BB181262050069E3CB /* InfoPlist.strings */ = {
@@ -460,6 +452,7 @@
 				3F1A58C4181262050069E3CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F1A58C5181262050069E3CB /* Build configuration list for PBXNativeTarget "City+Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +461,7 @@
 				3F1A58C7181262050069E3CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
